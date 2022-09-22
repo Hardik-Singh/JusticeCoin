@@ -27,11 +27,7 @@ app.get('/faq', function(req, res) {
   res.render('faq', {faqs: faqs});
 });
 
-app.get('/about', function(req, res) {
-  res.render('about', {
-    team: team
-  });
-});
+
 
 app.get('/web-miner', function(req, res) {
   res.render('webMiner');
